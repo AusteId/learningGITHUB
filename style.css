@@ -1,0 +1,52 @@
+:root {
+    --white-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #272b41;
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-first h1, .section-first p {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.section-first h1 {
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.section-first p {
+padding-inline: 3rem;
+}
+
+.section-first {
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttons-section {
+    padding-top: 1rem;
+}
+
+.buttons-section > * {
+    background-color: #49a4ed;
+    color: var(--white-color);
+    padding-block: 0.7rem;
+    padding-inline: 1rem;
+}
+
