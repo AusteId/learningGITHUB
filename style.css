@@ -50,3 +50,8 @@ padding-inline: 3rem;
     padding-inline: 1rem;
 }
 
+.buttons-section-second {
+    display: flex;
+    justify-content: center;
+}
+
